@@ -1,6 +1,8 @@
 # Node.js MySQL Login Application
 
 This simple Node.js application allows a user to sign up and log in. User credentials are stored in a MySQL database.
+![](https://img.shields.io/github/stars/refo0/nodejs-mysql-login)
+![](https://img.shields.io/github/forks/refo0/nodejs-mysql-login)
 
 ## Installation
 
