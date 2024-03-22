@@ -1,0 +1,116 @@
+body {
+    background-color: #1a1a1a;
+    font-family: 'Calibri', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-form {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-message {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.logged-in {
+    opacity: 1;
+}
+
+.customer-panel {
+    background-color: #2c2c2c; /* Müşteri panelinin arka plan rengi */
+    padding: 20px; /* Panel içeriği etrafındaki boşluk */
+    border-radius: 8px; /* Panel kenarlarının yuvarlatılması */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Panel için gölgelendirme */
+}
+
+h2 {
+    margin-top: 0; /* Başlık üstündeki boşluk */
+}
+
+h3 {
+    margin-top: 0; /* Alt başlık üstündeki boşluk */
+}
+
+#profile-info, #actions {
+    margin-bottom: 20px; /* Bilgi ve eylem bölümleri arasındaki boşluk */
+}
+
+button {
+    background-color: #007bff; /* Buton arka plan rengi */
+    color: #fff; /* Buton metin rengi */
+    border: none; /* Buton kenarlık yok */
+    padding: 10px 20px; /* Buton içeriği etrafındaki boşluk */
+    border-radius: 4px; /* Buton kenarlarının yuvarlatılması */
+    cursor: pointer; /* Üzerine gelince imleci değiştir */
+}
+
+button:hover {
+    background-color: #0056b3; /* Butona fare imlecini getirince arka plan rengi */
+}
+
+.login-form h2 {
+    margin-bottom: 10px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 20px); /* Eksiklik için kenar boşlukları ayarla */
+    border: none;
+    border-radius: 5px;
+    background-color: #4c4c4c;
+    color: #ffffff;
+}
+
+/* Giriş alanlarının odaklanma efekti */
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    outline: none;
+    background-color: #5c5c5c;
+}
+
+.login-form button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: #007bff;
+}
+
+.login-form a:hover {
+    color: #0056b3;
+}
