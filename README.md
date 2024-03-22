@@ -19,7 +19,7 @@ This simple Node.js application allows a user to sign up and log in. User creden
 3. Install the required packages:
 
     ```bash
-    npm install
+    npm install express mysql body-parser
     ```
 
 4. Set up your MySQL database and create a database. Then create a database named `loginpage`.
