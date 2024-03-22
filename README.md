@@ -49,6 +49,11 @@ This simple Node.js application allows a user to sign up and log in. User creden
 
 - To log in, visit the "/login" page and use the credentials you signed up with.
 
+## Photo
+
+![image](https://github.com/ReFo0/nodejs-mysql-login/assets/77904942/8358435c-b716-47f8-b2ab-e8ffcdc8e750)
+
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
