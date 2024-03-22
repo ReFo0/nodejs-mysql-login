@@ -56,6 +56,9 @@ This simple Node.js application allows a user to sign up and log in. User creden
 
 ![image](https://github.com/ReFo0/nodejs-mysql-login/assets/77904942/8358435c-b716-47f8-b2ab-e8ffcdc8e750)
 
+## Video
+
+https://github.com/ReFo0/nodejs-mysql-login/assets/77904942/c8f5e29c-a553-43c8-92bd-7a0fe0c1cc76
 
 ## License
 
